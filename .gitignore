@@ -1,0 +1,17 @@
+# Python / env
+__pycache__/
+.venv/
+.env
+.DS_Store
+
+# Spark outputs
+out/
+
+# Raw data (large)
+yellow_tripdata_*.csv
+
+# Keep small CSV exports if generated
+!borough_revenue_2019.csv
+
+# Logs
+*.log
